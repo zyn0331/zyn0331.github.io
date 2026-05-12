@@ -23,10 +23,11 @@ const MainImg = styled.img`
 `;
 
 const MainTitle = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
   font-size: 2rem;
   color: #2F2120;
-  line-height: 120%;
+  line-height: 130%;
   white-space: pre-line;
 `;
 
