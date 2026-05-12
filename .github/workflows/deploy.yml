@@ -30,12 +30,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # 카카오맵 키를 .env 파일로 주입 (레포 Settings > Secrets and variables > Actions 의
+      # VITE_APP_KAKAOMAP_JAVASCRIPT_KEY 시크릿 사용. 시크릿이 없으면 빈 값으로 빌드됨)
+      - name: Write .env
+        run: |
+          echo "VITE_APP_KAKAOMAP_JAVASCRIPT_KEY=${{ secrets.VITE_APP_KAKAOMAP_JAVASCRIPT_KEY }}" > .env
+          if grep -q 'VITE_APP_KAKAOMAP_JAVASCRIPT_KEY=.\+' .env; then echo "kakao key: present"; else echo "kakao key: EMPTY"; fi
+
       - name: Build
         run: npm run build
-        env:
-          # 카카오맵 키를 쓰려면 레포 Settings > Secrets and variables > Actions 에
-          # VITE_APP_KAKAOMAP_JAVASCRIPT_KEY 시크릿을 추가하세요. (없어도 빌드는 됩니다)
-          VITE_APP_KAKAOMAP_JAVASCRIPT_KEY: ${{ secrets.VITE_APP_KAKAOMAP_JAVASCRIPT_KEY }}
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
