@@ -41,24 +41,24 @@
         {
           "name": "윤형덕",
           "relation": "신랑",
-          "bank": "○○은행",
-          "account": "000-0000-000000",
+          "bank": "하나은행",
+          "account": "15591036965207",
           "kakaopayAccount": "",
           "tossAccount": ""
         },
         {
           "name": "윤용원",
           "relation": "아버지",
-          "bank": "○○은행",
-          "account": "000-0000-000000",
+          "bank": "국민은행",
+          "account": "239-21-0198-814",
           "kakaopayAccount": "",
           "tossAccount": ""
         },
         {
           "name": "고희숙",
           "relation": "어머니",
-          "bank": "○○은행",
-          "account": "000-0000-000000",
+          "bank": "새마을금고",
+          "account": "9003-2195-4100-0",
           "kakaopayAccount": "",
           "tossAccount": ""
         }
@@ -70,24 +70,8 @@
         {
           "name": "장예나",
           "relation": "신부",
-          "bank": "○○은행",
-          "account": "000-0000-000000",
-          "kakaopayAccount": "",
-          "tossAccount": ""
-        },
-        {
-          "name": "장중혁",
-          "relation": "아버지",
-          "bank": "○○은행",
-          "account": "000-0000-000000",
-          "kakaopayAccount": "",
-          "tossAccount": ""
-        },
-        {
-          "name": "이은숙",
-          "relation": "어머니",
-          "bank": "○○은행",
-          "account": "000-0000-000000",
+          "bank": "신한은행",
+          "account": "110-412-233367",
           "kakaopayAccount": "",
           "tossAccount": ""
         }
@@ -96,7 +80,7 @@
   ],
   "mapInfo": {
     "address1": "양재 엘블레스 B1",
-    "address2": "서울특별시 서초구 강남대로 213 지하1층\n☎ 02-000-0000",
+    "address2": "서울특별시 서초구 강남대로 213 지하1층\n☎ 02-526-0300",
     "naverMap": "https://map.naver.com/p/search/양재 엘블레스",
     "kakaoMap": "https://map.kakao.com/?q=양재 엘블레스",
     "lat": 37.4847,

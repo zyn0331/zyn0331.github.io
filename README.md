@@ -29,10 +29,10 @@ npm run build    # dist/ 생성 (배포 전 확인용)
 
 ## TODO (확정 후 수정)
 
-- [ ] 예식장 전화번호 (`src/data.json` 의 `mapInfo.address2`)
+- [x] 예식 일시·장소 입력 (2026.08.08 토 오후 5시, 양재 엘블레스 B1) · 예식장 ☎ 02-526-0300
+- [x] 축의금 계좌번호 입력 (신랑 윤형덕/父 윤용원/母 고희숙, 신부 장예나) — 필요시 `kakaopayAccount`·`tossAccount`에 카카오페이/토스 링크 추가 가능
 - [ ] 지도 좌표 `lat`/`lon`, 네이버·카카오 지도 링크 (`src/data.json` 의 `mapInfo`)
 - [ ] 오시는 길 — 지하철 출구/도보 시간, 주차 안내 (`src/data.json` 의 `locationInfo`)
-- [ ] 축의금 계좌번호 — 신랑측/신부측 (`src/data.json` 의 `hostInfo`), 안 쓰는 항목은 삭제
 - [ ] 사진 교체 (`src/assets/images/`, `public/thumbnail.jpg`)
 - [ ] (선택) 카카오 개발자 JavaScript 키 발급 후 등록 — 지도 표시용
 - [ ] (선택) 방명록을 실제로 저장하려면 Firebase Realtime Database 연결 (`src/firebase.ts`, `src/layout/Guestbook/CommentForm.tsx`)
