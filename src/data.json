@@ -1,0 +1,132 @@
+{
+  "greeting": {
+    "title": "윤형덕 💍 장예나\n결혼합니다!",
+    "message": "저희 결혼합니다.\n\n서로에게 알맞은 온도로 따뜻하던 우리.\n부부로서 첫걸음을 내딛는 그 설렘의 순간에\n소중한 분들을 초대합니다.",
+    "host": {
+      "groom": {
+        "name": "윤형덕",
+        "relation": "아들",
+        "parents": [
+          {
+            "relation": "아버지",
+            "name": "윤용원"
+          },
+          {
+            "relation": "어머니",
+            "name": "고희숙"
+          }
+        ]
+      },
+      "bride": {
+        "name": "장예나",
+        "relation": "딸",
+        "parents": [
+          {
+            "relation": "아버지",
+            "name": "장중혁"
+          },
+          {
+            "relation": "어머니",
+            "name": "이은숙"
+          }
+        ]
+      }
+    },
+    "eventDetail": "2026년 8월 8일 토요일 낮 12시\n엘블레스 양재 (스포타임 양재 지하 1층)"
+  },
+  "hostInfo": [
+    {
+      "host": "신랑측",
+      "accountInfo": [
+        {
+          "name": "윤형덕",
+          "relation": "신랑",
+          "bank": "○○은행",
+          "account": "000-0000-000000",
+          "kakaopayAccount": "",
+          "tossAccount": ""
+        },
+        {
+          "name": "윤용원",
+          "relation": "아버지",
+          "bank": "○○은행",
+          "account": "000-0000-000000",
+          "kakaopayAccount": "",
+          "tossAccount": ""
+        },
+        {
+          "name": "고희숙",
+          "relation": "어머니",
+          "bank": "○○은행",
+          "account": "000-0000-000000",
+          "kakaopayAccount": "",
+          "tossAccount": ""
+        }
+      ]
+    },
+    {
+      "host": "신부측",
+      "accountInfo": [
+        {
+          "name": "장예나",
+          "relation": "신부",
+          "bank": "○○은행",
+          "account": "000-0000-000000",
+          "kakaopayAccount": "",
+          "tossAccount": ""
+        },
+        {
+          "name": "장중혁",
+          "relation": "아버지",
+          "bank": "○○은행",
+          "account": "000-0000-000000",
+          "kakaopayAccount": "",
+          "tossAccount": ""
+        },
+        {
+          "name": "이은숙",
+          "relation": "어머니",
+          "bank": "○○은행",
+          "account": "000-0000-000000",
+          "kakaopayAccount": "",
+          "tossAccount": ""
+        }
+      ]
+    }
+  ],
+  "mapInfo": {
+    "address1": "엘블레스 양재",
+    "address2": "서울 서초구 강남대로 213 (양재동)\n스포타임 양재 지하 1층\n☎ 02-000-0000",
+    "naverMap": "https://map.naver.com/p/search/엘블레스 양재",
+    "kakaoMap": "https://map.kakao.com/?q=엘블레스 양재",
+    "lat": 37.4847,
+    "lon": 127.0344
+  },
+  "locationInfo": [
+    {
+      "title": "📍 지하철",
+      "desc": "👉🏻 3호선 · 신분당선 양재역 하차 (도보 ○분)"
+    },
+    {
+      "title": "📍 주차안내",
+      "desc": "👉🏻 스포타임 양재 건물 주차장 이용 (○시간 무료)\n(안내데스크에서 주차권 수령)"
+    }
+  ],
+  "emojis": [
+    "❤️",
+    "💛",
+    "💌",
+    "🥹",
+    "🥳",
+    "👰🏻‍",
+    "🤵🏻‍️",
+    "🤍",
+    "✨",
+    "💍",
+    "💒",
+    "💕",
+    "😍",
+    "🔔",
+    "💘"
+  ]
+}
