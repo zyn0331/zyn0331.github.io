@@ -1,6 +1,6 @@
 # 윤형덕 ♥ 장예나 모바일 청첩장
 
-2026년 8월 8일 토요일 · 엘블레스 양재 (스포타임 양재 지하 1층)
+2026년 8월 8일 토요일 오후 5시 · 양재 엘블레스 B1 (서울특별시 서초구 강남대로 213 지하1층)
 
 - 공개 주소: https://zyn0331.github.io
 - 템플릿 출처: [heejin-hwang/mobile-wedding-invitation](https://github.com/heejin-hwang/mobile-wedding-invitation) (MIT License)
@@ -29,7 +29,6 @@ npm run build    # dist/ 생성 (배포 전 확인용)
 
 ## TODO (확정 후 수정)
 
-- [ ] 예식 **시간** — 현재 "낮 12시"는 임시값 (`src/data.json` 의 `eventDetail`, `index.html` 메타태그)
 - [ ] 예식장 전화번호 (`src/data.json` 의 `mapInfo.address2`)
 - [ ] 지도 좌표 `lat`/`lon`, 네이버·카카오 지도 링크 (`src/data.json` 의 `mapInfo`)
 - [ ] 오시는 길 — 지하철 출구/도보 시간, 주차 안내 (`src/data.json` 의 `locationInfo`)
